@@ -1,0 +1,80 @@
+<!-- for setting up tailwind css for major dev -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Clone</title>
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="build.css">
+</head>
+<body>
+    <div class="navbar flex justify-between items-center p-2 md:mx-24 md:py-2">
+        <div class="flex justify-between items-center md:order-2  ">
+            <div class="hamburger inline-block border-2 border-black p-1 cursor-pointer md:hidden  ">
+                <div class="line h-[2px] bg-black w-5 my-1   "></div>
+                <div class="line h-[2px] bg-black w-5 my-1 "></div>
+                <div class="line h-[2px] bg-black w-5 my-1 "></div>
+            </div>
+            <div class="search md:hidden"><img src="https://img.icons8.com/windows/32/000000/search--v1.png"/></div>
+        </div>
+        
+        <div class="logo text-center md:order-1 flex">
+            <div><img class="w-24" src="logo.jpg" alt=""></div>
+
+            <div class="features absolute md:static w-fit md:w-auto md:bg-white bg-gray-200 inset-0 md:flex md:mx-4 md:space-x-3 -translate-x-96 md:translate-x-0 ">
+                <div class="f-item">Microsoft365</div>
+                <div class="f-item">Office</div>
+                <div class="f-item">Windows</div>
+                <div class="f-item">Surface</div>
+                <div class="f-item">Xbox</div>
+                <div class="f-item">Support</div>
+            </div>
+        </div>
+        <div class="logo text-center md:order-3 flex space-x-3">
+            <div class="search hidden md:block"><img src="https://img.icons8.com/windows/32/000000/search--v1.png"/></div>
+            <div class="md:flex">
+                <p class="hidden md:block">cart</p>
+            <img src="https://img.icons8.com/external-those-icons-lineal-those-icons/24/000000/external-cart-shopping-actions-those-icons-lineal-those-icons-4.png"/>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="slider flex flex-col-reverse md:flex-row bg-gray-100 md:mx-24 ">
+        <div class="left flex flex-col justify-center py-16 md:py-32 mx-2 md:mx-16 text-center md:text-left ">
+            <h1 class="text-md font-semibold text-center md:text-left md:text-2xl md:mb-2">Surface Laptop4</h1>
+            <p class="text-sm md:mb-2">Do it all with the perfect balance of sleek, ultra thin design, multitasking speed and improved performance</p>
+            <button class="bg-black  py-1 py-2  items-center w-[45%] text-white text-sm font-semibold mx-auto my-2 md:mx-0 md:w-[20%] ">Shop now</button>
+        </div>
+        <div class="right">
+            <img src="pexels-photo.jpg" alt="">
+        </div>
+
+
+    </div>
+
+    <div class="promo text-sm font-semibold mx-6 my-8 space-y-2 md:flex md:justify-center md:space-x-3 md:my-16">
+        <div class="item ">
+            <img src="" alt="">
+            <span class="inline-block my-2" >Choose your Microsoft 365</span>
+        </div>
+        <div class="item ">
+            <img src="" alt="">
+            <span>Ecplore Surface devices</span>
+        </div>
+        <div class="item ">
+            <img src="" alt="">
+            <span>Buy Xbox games</span>
+        </div>
+        <div class="item ">
+            <img src="" alt="">
+            <span>Get Windows 11</span>
+        </div>
+    </div>
+
+   
+</body>
+</html>
+
